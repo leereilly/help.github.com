@@ -26,7 +26,7 @@ Another basic command, `git remote rm example` will delete the "example" remote 
 
 ### Changing a remote's URL
 
-There is no direct command to change a remote's URL, so you will usually run `git remote rm` followed by `git remote add` to change a URL.  You can also edit the repo's `.git/config` file directly to change the URL without re-fetching the remote.
+`git remote set-url example git://github.com/user/test.git` will set the URL of the remote named "example" to `git://github.com/user/test.git`.
 
 Fetching
 --------
