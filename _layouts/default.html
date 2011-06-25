@@ -51,7 +51,11 @@ sidebar_cats:
           <ul>
             {% for cat in (page.sidebar_cats) %}
             <li class="js-topic">
-              <h3><a href="#">{{ cat | replace:'_',' ' | capitalize }}</a></h3>
+              {% if cat == "github_resources" %}
+                <h3><a href="#">GitHub Resources</a></h3>
+              {% else %}
+                <h3><a href="#">{{ cat | replace:'_',' ' | capitalize }}</a></h3>
+              {% endif %}
               <ul class="js-guides">
                 {% for post in site.posts reversed %}{% if post.categories contains cat %}
                   {% if page.title == post.title %}
