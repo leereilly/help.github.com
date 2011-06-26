@@ -18,6 +18,8 @@ _&#42;If you don&rsquo;t already know what Git is, <a href="http://progit.org/bo
 
 	We suggest you install git-core, git-gui, and git-doc.
 
+	__&#42;Note&#42;__ In newer Debian/Ubuntu installations you will find git instead of git-core.
+
 	<img src="/images/bootcamp/bootcamp_1_linux_install_1.jpg" width="558" height="426" alt="Open Synaptic" />
 	<img src="/images/bootcamp/bootcamp_1_linux_install_2.jpg" width="558" height="480" alt="Mark git-core, git-gui, and git-doc for installation" />
 	<img src="/images/bootcamp/bootcamp_1_linux_install_3.jpg" width="558" height="480" alt="git-core, git-gui, and git-doc are selected" />
