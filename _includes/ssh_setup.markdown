@@ -127,6 +127,24 @@
 	<span class="bash-output">Connection to github.com closed.</span>
 	</pre>
 
+	Depending on the version of OpenSSH you might get the following instead:
+
+	<pre class="terminal bootcamp">
+	<span class="bash-output">PTY allocation request failed on channel 0</span>
+	</pre>
+
+	Don't worry, this is normal. You can verify you authenticate successfully by typing:
+
+	<pre class="terminal bootcamp">
+	<span class="codeline">$ ssh -v git@github.com<span>Attempts to ssh to github outputting debug information</span></span>
+	</pre>
+
+	If you examine the output you should see the following somewhere toward the end:
+
+	<pre class="terminal bootcamp">
+	<span class="bash-output">debug1: Authentication succeeded (publickey).</span>
+	</pre>
+
 	<div class="more-info">
 		<h4 class="compressed">Having problems?</h4>
 		<div class="more-content">
