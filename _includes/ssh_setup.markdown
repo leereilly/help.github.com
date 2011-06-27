@@ -108,7 +108,7 @@
 	To make sure everything is working you&rsquo;ll now SSH to GitHub. <span class="attention">Don&rsquo;t change the &ldquo;git@github.com&rdquo; part.</span> That&rsquo;s supposed to be there.
 
 	<pre class="terminal bootcamp">
-	<span class="codeline">$ ssh git@github.com<span>Attempts to ssh to github</span></span>
+	<span class="codeline">$ ssh -T git@github.com<span>Attempts to ssh to github</span></span>
 	</pre>
 
 	Which should give you this:
@@ -122,27 +122,7 @@
 	Don&rsquo;t worry, this is supposed to happen. Type &ldquo;yes&rdquo;.
 
 	<pre class="terminal bootcamp">
-	<span class="bash-output">PTY allocation request failed on channel 0</span>
 	<span class="bash-output">Hi <em>username</em>! You've successfully authenticated, but GitHub does not provide shell access.</span>
-	<span class="bash-output">Connection to github.com closed.</span>
-	</pre>
-
-	Depending on the version of OpenSSH you might get the following instead:
-
-	<pre class="terminal bootcamp">
-	<span class="bash-output">PTY allocation request failed on channel 0</span>
-	</pre>
-
-	Don't worry, this is normal. You can verify you authenticate successfully by typing:
-
-	<pre class="terminal bootcamp">
-	<span class="codeline">$ ssh -v git@github.com<span>Attempts to ssh to github outputting debug information</span></span>
-	</pre>
-
-	If you examine the output you should see the following somewhere toward the end:
-
-	<pre class="terminal bootcamp">
-	<span class="bash-output">debug1: Authentication succeeded (publickey).</span>
 	</pre>
 
 	<div class="more-info">
@@ -150,7 +130,7 @@
 		<div class="more-content">
 			<p>Setting up SSH can be problematic some times. Here are some frequent issues people run into:</p>
 			<h4>SSH to GitHub</h4>
-			<p>When it came time to run <code>$ ssh git@github.com</code> did you type your own email in there? If you did, you will need to run it again, making sure it says &ldquo;git@github.com&rdquo;. This is important because it is the address you are trying to SSH to (GitHub), not your email address.</p>
+			<p>When it came time to run <code>$ ssh -T git@github.com</code> did you type your own email in there? If you did, you will need to run it again, making sure it says &ldquo;git@github.com&rdquo;. This is important because it is the address you are trying to SSH to (GitHub), not your email address.</p>
 			<h4>Sudo</h4>
 			<p>Are you using <code>sudo</code>? If you don&rsquo;t know what that means, then you probably aren&rsquo;t. If you are using it, stop! You shouldn&rsquo;t use <code>sudo</code> unless you have a very good reason.</p>
 			<h4>Agent admitted failure to sign using the key</h4>
@@ -162,7 +142,7 @@
 			<h4>My connection was refused</h4>
 			<p>You may be blocked by a firewall. First, you should check your ssh debug info:</p>
 			<pre class="terminal bootcamp">
-			<span class="codeline">$ ssh -v git@github.com<span>Prints debug info for the git@github.com SSH connection</span></span>
+			<span class="codeline">$ ssh -vT git@github.com<span>Prints debug info for the git@github.com SSH connection</span></span>
 			</pre>
 			<p>Make sure it is connecting to GitHub on port 22. If it is, check to make sure your firewall is not blocking port 22.</p>
 			<h4>When all else fails</h4>

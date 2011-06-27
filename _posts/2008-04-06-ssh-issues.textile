@@ -9,10 +9,10 @@ main_category: troubleshooting
 <p class="intro">This guide contains the solutions to the most common SSH connection issues encountered on GitHub.</p>
 
 The first step to testing your connection is to run <code>ssh git@github.com</code>.  If your key works, you should get a success message:
-<pre class="terminal">$ ssh git@github.com
+<pre class="terminal">$ ssh -T git@github.com
 Hi username! You've successfully authenticated, but GitHub does not provide shell access.</pre>
 
-If this step fails, try running <code>ssh -v git@github.com</code>.  This will print out debug info on what ssh is trying to do.  In this output you should check that ssh is connecting to the correct server, on the correct port (22).  Many firewalls and proxies will block this connection.  Also ensure that ssh is reading the correct key files, these are at ~/.ssh/id_rsa, id_dsa and identity by default.  If your key is not at this location, you should move it or create an override (see the "SSH config" section below).
+If this step fails, try running <code>ssh -vT git@github.com</code>.  This will print out debug info on what ssh is trying to do.  In this output you should check that ssh is connecting to the correct server, on the correct port (22).  Many firewalls and proxies will block this connection.  Also ensure that ssh is reading the correct key files, these are at ~/.ssh/id_rsa, id_dsa and identity by default.  If your key is not at this location, you should move it or create an override (see the "SSH config" section below).
 
 h2. Permission to user/repo2 denied to user/repo1
 
@@ -24,7 +24,7 @@ This is usually caused when ssh cannot find your keys.  Make sure your key is in
 
 h3. Finding out what keys ssh is using
 
-Finding what keys ssh is offering to the server is fairly simple.  Run <code>ssh -v git@github.com</code> and look at the output:
+Finding what keys ssh is offering to the server is fairly simple.  Run <code>ssh -vT git@github.com</code> and look at the output:
 
 <pre class="terminal">debug1: Next authentication method: publickey
 debug1: Trying private key: /Users/tekkub/.ssh/identity
