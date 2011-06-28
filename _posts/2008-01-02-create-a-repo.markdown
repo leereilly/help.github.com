@@ -61,7 +61,7 @@ While a README isn&rsquo;t a required part of a GitHub repo, it is a good idea t
 
 2. <span class="step-title">Commit your README</span>
 
-	Now that you have your README set up, it&ldquo;s time to commit it. A commit is essentially a snapshot of all the files in your project at a particular point in time. In the prompt, type the following code:
+	Now that you have your README set up, it&rsquo;s time to commit it. A commit is essentially a snapshot of all the files in your project at a particular point in time. In the prompt, type the following code:
 
 	<div class="more-info">
 		<h4 class="compressed">More about commits</h4>
