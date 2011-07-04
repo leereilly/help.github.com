@@ -44,7 +44,7 @@ Best of all: people cloning your `my-awesome-framework` fork will have no
 problem pulling down your `my-fantastic-plugin` submodule, as you’ve registered
 the public clone URL for the submodule. The commands
 
-<preclass="terminal">
+<pre class="terminal">
 $ gh submodule init
 $ gh submodule update
 </pre>
