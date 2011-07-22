@@ -431,4 +431,9 @@ img.top-margin {
   overflow: hidden;
 }
 
+.sidebar-module .load {
+  padding: 13px 5px 0 0;
+  float: left;
+}
+
 /* @end */

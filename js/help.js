@@ -1,3 +1,14 @@
+/*
+ * Displays a new Tip.
+ *
+ * resp - the Response hash
+ *        tip - the String tip to display
+ */
+function tip(resp){
+  $('.tip-body .load').hide()
+  $('.tip-body > p').text(resp['tip'])
+}
+
 $(document).ready(function(){
   $(".more-info h4").click(function () {
       var contentdiv = $(this).parent().find(".more-content")
@@ -9,4 +20,25 @@ $(document).ready(function(){
           contentdiv.slideUp("50")
       }
   })
+
+  var new_tip = function() {
+   $.ajax({
+      url: 'http://localhost:3000/tips?callback=tip',
+      type: 'GET',
+      dataType: 'jsonp',
+      error: function(resp){
+        $('.tip-body > p').text('There was a problem loading your tip.')
+      }
+    })
+    return false
+  }
+
+  $('.tip-box > a').click(function() {
+    $('.tip-body .load').show()
+    $('.tip-body > p').text('Loading next tip...')
+    new_tip()
+    return false
+  })
+
+  new_tip()
 });
