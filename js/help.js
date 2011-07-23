@@ -6,7 +6,7 @@
  */
 function tip(resp){
   $('.tip-body .load').hide()
-  $('.tip-body > p').text(resp['tip'])
+  $('.tip-body > p').html(resp['tip'])
 }
 
 /*
