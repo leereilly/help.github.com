@@ -23,7 +23,7 @@ $(document).ready(function(){
 
   var new_tip = function() {
    $.ajax({
-      url: 'http://localhost:3000/tips?callback=tip',
+      url: 'https://github.com/tips?callback=tip',
       type: 'GET',
       dataType: 'jsonp',
       error: function(resp){
