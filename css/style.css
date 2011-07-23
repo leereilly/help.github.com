@@ -492,13 +492,13 @@ img.top-margin {
   text-decoration: none;
 }
 
-.sidebar-module .operational a {
+.sidebar-module .good a {
   background-position: 0px 0px; /* green */
   border-color: #88c185;
   color: #005d07;
 }
 
-.sidebar-module .operational a:hover {
+.sidebar-module .good a:hover {
   background-position: 0px -33px;
 }
 
