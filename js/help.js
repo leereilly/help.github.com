@@ -9,6 +9,26 @@ function tip(resp){
   $('.tip-body > p').text(resp['tip'])
 }
 
+/*
+ * Updates the status div.
+ *
+ * resp - the Response hash
+ *        status - the status of GitHub
+ */
+function updateStatus(resp){
+  current = resp['status']
+  if (current == 'majorproblem')
+    message = "Major service disruption"
+  else if (current == 'minorproblem')
+    message = "Minor service disruption"
+  else
+    message = "All systems operational"
+
+  $('.status-box').removeClass('loading')
+  $('.status-box').addClass(current)
+  $('.status-box > a').text(message)
+}
+
 $(document).ready(function(){
   $(".more-info h4").click(function () {
       var contentdiv = $(this).parent().find(".more-content")
@@ -20,6 +40,14 @@ $(document).ready(function(){
           contentdiv.slideUp("50")
       }
   })
+
+  $.ajax({
+      url: 'http://localhost:9393/current-status.json',
+      type: 'GET',
+      dataType: 'jsonp',
+      error: function(resp){
+      }
+    })
 
   var new_tip = function() {
    $.ajax({

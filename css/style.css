@@ -512,24 +512,24 @@ img.top-margin {
   background-position: 0px -99px;
 }
 
-.sidebar-module .partial a {
+.sidebar-module .minorproblem a {
   background-position: 0px -132px; /* orange */
   border-color: #f16f00;
   color: #932a00;
 }
 
-.sidebar-module .partial a:hover {
+.sidebar-module .minorproblem a:hover {
   background-position: 0px -165px;
 }
 
-.sidebar-module .major a {
+.sidebar-module .majorproblem a {
   background-position: 0px -198px; /* red */
   border-color: #bb493b;
   color: #751711;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
-.sidebar-module .major a:hover {
+.sidebar-module .majorproblem a:hover {
   background-position: 0px -231px;
 }
 
