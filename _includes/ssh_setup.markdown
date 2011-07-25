@@ -1,4 +1,3 @@
-
 1. <span class="step-title">Check for SSH keys. <span>Have an existing key pair? You can skip to Step 4.</span></span>
 
 	First, we need to check for existing ssh keys on your computer:
@@ -17,8 +16,8 @@
 	<span class="codeline">$ ls<span>Lists all the subdirectories in the current directory</span></span>
 	<span class="bash-output">config	id_rsa	id_rsa.pub	known_hosts</span>
 	<span class="codeline">$ mkdir key_backup<span>makes a subdirectory called "key_backup" in the current directory</span></span>
-	<span class="codeline">$ cp id_rsa* key_backup<span>Copies the contents of the id_rsa directory into key_backup	 </span></span>
-	<span class="codeline">$ rm id_rsa*<span>Deletes the contents of the id_rsa directory</span></span>
+	<span class="codeline">$ cp id_rsa* key_backup<span>Copies the id_rsa and id_rsa.pub files into key_backup	 </span></span>
+	<span class="codeline">$ rm id_rsa*<span>Deletes the id_rsa and id_rsa.pub files</span></span>
 	</pre>
 
 3. <span class="step-title">Generate a new SSH key.</span>
