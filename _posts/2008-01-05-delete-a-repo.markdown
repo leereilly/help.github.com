@@ -9,10 +9,10 @@ categories: beginner
 
 Go to the repository homepage &rarr; Admin:
 
-![](http://img.skitch.com/20100110-jps511wbqpmjpgp16m8g17iiut.jpg)
+![](/images/delete-repo-1.jpg)
 
 At the bottom of the page there is a button to delete the repo:
 
-![](http://img.skitch.com/20100527-fgtcuthgr5xrbcyqmxgiue5jwb.png)
+![](/images/delete-repo-2.jpg)
 
 Collaborators can not delete repos, but they can [leave them](/leave-a-repo).
