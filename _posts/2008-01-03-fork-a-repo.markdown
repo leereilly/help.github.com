@@ -15,7 +15,7 @@ At some point you may find yourself wanting to contribute to someone else's proj
 
   To fork this project, click the &ldquo;Fork&rdquo; button.
 
-  <img src="/images/bootcamp/bootcamp_3_fork.jpg" width="558" height="137" alt="Click &ldquo;Fork"  />
+  <img src="/images/bootcamp/bootcamp_3_fork.jpg" width="558" height="137" alt="Click &ldquo;Fork&rdquo;"  />
 
 ##Next: Set Up Your Local Repo
 
@@ -146,6 +146,16 @@ You&rsquo;ve successfully forked a repo, but get a load of these other cool thin
 - <span class="step-title">Pull requests</span>
 
   If you are hoping to contribute back to the original fork, you can send the original author a [pull request](/pull-requests/).
+
+- <span class="step-title">Unwatch the main repo</span>
+
+  When you fork a particularly popular repo, you may find yourself with a lot of unwanted updates about it. To unsubscribe from updates to the main repo, click the &ldquo;Unwatch&rdquo; button on the <strong>main repo</strong>.
+
+  <img src="/images/bootcamp/bootcamp_3_unwatch.jpg" width="558" height="137" alt="Click &ldquo;Unwatch&rdquo;"  />
+
+- <span class="step-title">Delete your fork</span>
+
+  At some point you may decide that you want to delete your fork. To delete a fork, just follow the same steps as you would to [delete a regular repo](/delete-a-repo).
 
 ##<span class="step">Lastly:</span> Celebrate
 
