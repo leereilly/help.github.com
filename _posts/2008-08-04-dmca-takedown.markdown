@@ -37,8 +37,8 @@ Send the written notification via regular postal mail to the following:
 
 > GitHub Inc <br>
 > Attn: DMCA takedown <br>
-> 589 Howard St., 4th Floor <br>
-> San Francisco, CA. 94105
+> 548 4th St. <br>
+> San Francisco, CA. 94107
 
 or email notification to <copyright@github.com>
 
