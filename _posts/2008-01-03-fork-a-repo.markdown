@@ -55,7 +55,7 @@ You've successfully forked the Spoon-Knife repo, but so far it only exists on Gi
 <pre class="terminal bootcamp">
 <span class="codeline">$ cd Spoon-Knife<span>Changes the active directory in the prompt to the newly cloned "Spoon-Knife" directory</span></span>
 <span class="codeline">$ git remote add upstream git://github.com/octocat/Spoon-Knife.git<span>Assigns the original repo to a remote called "upstream"</span></span>
-<span class="codeline">$ git fetch upstream<span>Pulls in any changes not present in your local repository, but doesn't modify your working files</span></span>
+<span class="codeline">$ git fetch upstream<span>Pulls in changes not present in your local repository, without modifying your files</span></span>
 </pre>
 </li>
 </ol>
