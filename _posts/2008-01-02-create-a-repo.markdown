@@ -20,17 +20,21 @@ Every time you make a commit with Git, it is stored in a repository (a.k.a. &ldq
   </div>
 </div>
 
-1. <span class="step-title">Create a new repo</span>
+<ol>
+  <li>
+    <p><span class="step-title">Create a new repo</span></p>
 
-  Click [New Repository](https://github.com/repositories/new).
+    <p>Click <a href="https://github.com/repositories/new">New Repository</a>.</p>
 
-  <img src="/images/bootcamp/bootcamp_2_newrepo.jpg" width="558" height="291" alt="Click &ldquo;New Repository" />
+    <img src="/images/bootcamp/bootcamp_2_newrepo.jpg" width="558" height="291" alt="Click &ldquo;New Repository" />
 
-  Fill out the information on this page. When you&rsquo;re done, click &ldquo;Create Repository.&rdquo;
+    <p>Fill out the information on this page. When you&rsquo;re done, click &ldquo;Create Repository.&rdquo;</p>
 
-  <img src="/images/bootcamp/bootcamp_2_repoinfo.jpg" width="558" height="437" alt="Fill in the info" />
+    <img src="/images/bootcamp/bootcamp_2_repoinfo.jpg" width="558" height="437" alt="Fill in the info" />
 
-  Congratulations! You have successfully created your first repo!
+    <p>Congratulations! You have successfully created your first repo!</p>
+  </li>
+</ol>
 
 ##<span class="step">Next:</span> Create a README for your repo.
 
@@ -45,60 +49,65 @@ While a README isn&rsquo;t a required part of a GitHub repo, it is a good idea t
   </div>
 </div>
 
-1. <span class="step-title">Create the README file</span>
+<ol>
+  <li>
+    <p><span class="step-title">Create the README file</span></p>
 
-  In the prompt, type the following code:
+    <p>In the prompt, type the following code:</p>
 
-  <pre class="terminal bootcamp">
-  <span class="codeline">$ mkdir ~/Hello-World<span>Creates a directory for your project called "Hello-World" in your user directory</span></span>
-  <span class="codeline">$ cd ~/Hello-World<span>Changes the current working directory to your newly created directory</span></span>
-  <span class="codeline">$ git init<span>Sets up the necessary Git files</span></span>
-  <span class="bash-output">Initialized empty Git repository in /Users/<em>your_user_directory</em>/Hello-World/.git/</span>
-  <span class="codeline">$ touch README<span>Creates a file called &ldquo;README&rdquo; in your Hello-World directory</span></span>
-  </pre>
+    <pre class="terminal bootcamp">
+    <span class="codeline">$ mkdir ~/Hello-World<span>Creates a directory for your project called "Hello-World" in your user directory</span></span>
+    <span class="codeline">$ cd ~/Hello-World<span>Changes the current working directory to your newly created directory</span></span>
+    <span class="codeline">$ git init<span>Sets up the necessary Git files</span></span>
+    <span class="bash-output">Initialized empty Git repository in /Users/<em>your_user_directory</em>/Hello-World/.git/</span>
+    <span class="codeline">$ touch README<span>Creates a file called &ldquo;README&rdquo; in your Hello-World directory</span></span>
+    </pre>
 
-  Open the new README file found in your Hello-World directory in a text editor and add the text &ldquo;Hello World!&rdquo; When you are finished, save and close the file.
+    <p>Open the new README file found in your Hello-World directory in a text editor and add the text &ldquo;Hello World!&rdquo; When you are finished, save and close the file.</p>
+  </li>
+  <li>
+    <p><span class="step-title">Commit your README</span></p>
 
-2. <span class="step-title">Commit your README</span>
+    <p>Now that you have your README set up, it&rsquo;s time to commit it. A commit is essentially a snapshot of all the files in your project at a particular point in time. In the prompt, type the following code:</p>
 
-  Now that you have your README set up, it&rsquo;s time to commit it. A commit is essentially a snapshot of all the files in your project at a particular point in time. In the prompt, type the following code:
-
-  <div class="more-info">
-    <h4 class="compressed">More about commits</h4>
-    <div class="more-content">
-      <p>
-        Think of a <em>commit</em> as a snapshot of your project &mdash;code, files, everything &mdash; at a particular point in time. More accurately, after your first commit, each subsequent commit is only a snapshot of your changes. For code files, this means it only takes a snapshot of the lines of code that have changed. For everything else like music or image files, it saves a new copy of the file.
-      </p>
+    <div class="more-info">
+      <h4 class="compressed">More about commits</h4>
+      <div class="more-content">
+        <p>
+          Think of a <em>commit</em> as a snapshot of your project &mdash;code, files, everything &mdash; at a particular point in time. More accurately, after your first commit, each subsequent commit is only a snapshot of your changes. For code files, this means it only takes a snapshot of the lines of code that have changed. For everything else like music or image files, it saves a new copy of the file.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <pre class="terminal bootcamp">
-  <span class="codeline">$ git add README<span>Stages your README file, adding it to the list of files to be committed</span></span>
-  <span class="codeline">$ git commit -m 'first commit'<span></span>Commits your files, adding the message "first commit"</span>
-  </pre>
+    <pre class="terminal bootcamp">
+    <span class="codeline">$ git add README<span>Stages your README file, adding it to the list of files to be committed</span></span>
+    <span class="codeline">$ git commit -m 'first commit'<span></span>Commits your files, adding the message "first commit"</span>
+    </pre>
 
-  The code above executes actions locally, meaning you still haven&rsquo;t done anything on GitHub yet. To connect your local repository to your GitHub account, you will need to set a remote for your repo and push your commits to it:
+    <p>The code above executes actions locally, meaning you still haven&rsquo;t done anything on GitHub yet. To connect your local repository to your GitHub account, you will need to set a remote for your repo and push your commits to it:</p>
 
-  <div class="more-info">
-    <h4 class="compressed">More about remotes</h4>
-    <div class="more-content">
-      <p>
-        A <em>remote</em> is a repo stored on another computer, in this case on GitHub&rsquo;s server. It is standard practice (and also the default in some cases) to give the name <code>origin</code> to the remote that points to your main offsite repo (for example, your GitHub repo).
-      </p>
-      <p>
-        Git supports multiple remotes. This is commonly used when forking a repo.
-      </p>
+    <div class="more-info">
+      <h4 class="compressed">More about remotes</h4>
+      <div class="more-content">
+        <p>
+          A <em>remote</em> is a repo stored on another computer, in this case on GitHub&rsquo;s server. It is standard practice (and also the default in some cases) to give the name <code>origin</code> to the remote that points to your main offsite repo (for example, your GitHub repo).
+        </p>
+        <p>
+          Git supports multiple remotes. This is commonly used when forking a repo.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <pre class="terminal bootcamp">
-  <span class="codeline">$ git remote add origin git@github.com:<em>username</em>/Hello-World.git<span>Sets the origin for the Hello-World repo</span></span>
-  <span class="codeline">$ git push origin master<span></span>Sends your commit to GitHub</span>
-  </pre>
+    <pre class="terminal bootcamp">
+    <span class="codeline">$ git remote add origin git@github.com:<em>username</em>/Hello-World.git<span>Sets the origin for the Hello-World repo</span></span>
+    <span class="codeline">$ git push origin master<span></span>Sends your commit to GitHub</span>
+    </pre>
 
-  Now if you look at your repository on GitHub, you will see your README has been added to it.
+    <p>Now if you look at your repository on GitHub, you will see your README has been added to it.</p>
 
-  <img src="/images/bootcamp/bootcamp_2_updatedreadme.jpg" width="558" height="577" alt="Your README has been created" />
+    <img src="/images/bootcamp/bootcamp_2_updatedreadme.jpg" width="558" height="577" alt="Your README has been created" />
+  </li>
+</ol>
 
 ##<span class="step">Lastly:</span> Celebrate
 

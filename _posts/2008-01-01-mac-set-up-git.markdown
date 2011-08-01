@@ -14,9 +14,13 @@ At the heart of GitHub is an open source version control system (VCS) called Git
 
 _&#42;If you don&rsquo;t already know what Git is, <a href="http://progit.org/book/ch1-3.html" target="_blank">take a crash course.</a>_
 
-1. <span class="step-title">Download and install <a href="http://git-scm.com/" target="_blank">the latest version of Git</a>.</span>
+<ol>
+  <li>
+    <p><span class="step-title">Download and install <a href="http://git-scm.com/" target="_blank">the latest version of Git</a>.</span></p>
 
-  __&#42;Note&#42;__ Don&rsquo;t worry that you don&rsquo;t see an icon when it&rsquo;s done. It&rsquo;s not that kind of application.
+    <p><strong>&#42;Note&#42;</strong> Don&rsquo;t worry that you don&rsquo;t see an icon when it&rsquo;s done. It&rsquo;s not that kind of application.</p>
+  </li>
+</ol>
 
 ##<span class="step">Next:</span> Set Up SSH Keys
 

@@ -14,28 +14,31 @@ At the heart of GitHub is an open source version control system (VCS) called Git
 
 _&#42;If you don&rsquo;t already know what Git is, <a href="http://progit.org/book/ch1-3.html" target="_blank">take a crash course.</a>_
 
-1. <span class="step-title">Download and install the latest version of Git with Synaptic.</span>
+<ol>
+  <li>
+    <p><span class="step-title">Download and install the latest version of Git with Synaptic.</span></p>
 
-  We suggest you install git-core, git-gui, and git-doc.
+    <p>We suggest you install git-core, git-gui, and git-doc.</p>
 
-  __&#42;Note&#42;__ In newer Debian/Ubuntu installations you will find git instead of git-core.
+    <p><strong>&#42;Note&#42;</strong> In newer Debian/Ubuntu installations you will find git instead of git-core.</p>
 
-  <img src="/images/bootcamp/bootcamp_1_linux_install_1.jpg" width="558" height="426" alt="Open Synaptic" />
-  <img src="/images/bootcamp/bootcamp_1_linux_install_2.jpg" width="558" height="480" alt="Mark git-core, git-gui, and git-doc for installation" />
-  <img src="/images/bootcamp/bootcamp_1_linux_install_3.jpg" width="558" height="480" alt="git-core, git-gui, and git-doc are selected" />
+    <img src="/images/bootcamp/bootcamp_1_linux_install_1.jpg" width="558" height="426" alt="Open Synaptic" />
+    <img src="/images/bootcamp/bootcamp_1_linux_install_2.jpg" width="558" height="480" alt="Mark git-core, git-gui, and git-doc for installation" />
+    <img src="/images/bootcamp/bootcamp_1_linux_install_3.jpg" width="558" height="480" alt="git-core, git-gui, and git-doc are selected" />
 
-  When you&rsquo;ve selected git-core, git-gui, and git-doc, hit &ldquo;Apply&rdquo; to install them.
+    <p>When you&rsquo;ve selected git-core, git-gui, and git-doc, hit &ldquo;Apply&rdquo; to install them.</p>
 
-  <img src="/images/bootcamp/bootcamp_1_linux_install_4.jpg" width="558" height="173" alt="Click Apply" />
+    <img src="/images/bootcamp/bootcamp_1_linux_install_4.jpg" width="558" height="173" alt="Click Apply" />
 
-  If you don&rsquo;t have a package manager like Synaptic, or you&rsquo;d rather install the necessary git components from the command line, you can alternatively run the script below:
+    <p>If you don&rsquo;t have a package manager like Synaptic, or you&rsquo;d rather install the necessary git components from the command line, you can alternatively run the script below:</p>
 
-  <pre class="terminal bootcamp">
-    <span class="codeline">$ sudo apt-get install git-core git-gui git-doc<span>Installs git-core, git-gui, and git-doc on your system</span></span>
-  </pre>
+    <pre class="terminal bootcamp">
+      <span class="codeline">$ sudo apt-get install git-core git-gui git-doc<span>Installs git-core, git-gui, and git-doc on your system</span></span>
+    </pre>
 
-  __&#42;Note&#42;__ Don&rsquo;t worry that you don&rsquo;t see an icon when it&rsquo;s done. It&rsquo;s not that kind of application.
-
+    <p><strong>&#42;Note&#42;</strong> Don&rsquo;t worry that you don&rsquo;t see an icon when it&rsquo;s done. It&rsquo;s not that kind of application.</p>
+  </li>
+</ol>
 ##<span class="step">Next:</span> Set Up SSH Keys
 
 We use SSH keys to establish a secure connection between your computer and GitHub. Setting them up is fairly easy, but does involve a number of steps.

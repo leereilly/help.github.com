@@ -11,45 +11,54 @@ categories: beginner
 
 At some point you may find yourself wanting to contribute to someone else's project, or would like to use someone's project as the starting point for your own. This is known as &ldquo;forking.&rdquo; For this tutorial, we&rsquo;ll be using the <a href="https://github.com/octocat/Spoon-Knife" target="_blank">Spoon-Knife</a> project.
 
-1. <span class="step-title">Fork the &ldquo;Spoon-Knife &rdquo; repo</span>
+<ol>
+<li>
+<p><span class="step-title">Fork the &ldquo;Spoon-Knife &rdquo; repo</span></p>
 
-  To fork this project, click the &ldquo;Fork&rdquo; button.
+<p>To fork this project, click the &ldquo;Fork&rdquo; button.</p>
 
-  <img src="/images/bootcamp/bootcamp_3_fork.jpg" width="558" height="137" alt="Click &ldquo;Fork&rdquo;"  />
+<img src="/images/bootcamp/bootcamp_3_fork.jpg" width="558" height="137" alt="Click &ldquo;Fork&rdquo;"  />
+</li>
+</ol>
 
 ##Next: Set Up Your Local Repo
 
-You&rsquo;ve successfully forked the Spoon-Knife repo, but so far it only exists on GitHub. To be able to work on the project, you will need to clone it to your local machine.
+You've successfully forked the Spoon-Knife repo, but so far it only exists on GitHub. To be able to work on the project, you will need to clone it to your local machine.
 
-2. <span class="step-title">Clone the &ldquo;Spoon-Knife&rdquo; project</span>
+<ol>
+<li>
+<p><span class="step-title">Clone the &ldquo;Spoon-Knife&rdquo; project</span></p>
 
-  Run the following code:
+<p>Run the following code:</p>
 
-  <pre class="terminal bootcamp">
-  <span class="codeline">$ git clone git@github.com:<em>username</em>/Spoon-Knife.git<span>Clones your copy of the repo into the current directory in terminal</span></span>
-  </pre>
+<pre class="terminal bootcamp">
+<span class="codeline">$ git clone git@github.com:<em>username</em>/Spoon-Knife.git<span>Clones your copy of the repo into the current directory in terminal</span></span>
+</pre>
+</li>
+<li>
+<p><span class="step-title">Configure remotes</span></p>
 
-3. <span class="step-title">Configure remotes</span>
+<p>When a repo is cloned, it has a default remote called <code>origin</code> that points to your fork on GitHub, not the original repo it was forked from. To keep track of the original repo, you need to add another remote named <code>upstream</code>:</p>
 
-  When a repo is cloned, it has a default remote called `origin` that points to your fork on GitHub, not the original repo it was forked from. To keep track of the original repo, you need to add another remote named `upstream`:
-
-  <div class="more-info">
-    <h4 class="compressed">More about remotes</h4>
-    <div class="more-content">
-      <p>
-        A <em>remote</em> is a repo stored on another computer, in this case on GitHub&rsquo;s server. It is standard practice (and also the default in some cases) to give the name <code>origin</code> to the remote that points to your main offsite repo (for example, your GitHub repo).
-      </p>
-      <p>
-        Git supports multiple remotes. This is commonly used when forking a repo.
-      </p>
-    </div>
+<div class="more-info">
+  <h4 class="compressed">More about remotes</h4>
+  <div class="more-content">
+    <p>
+      A <em>remote</em> is a repo stored on another computer, in this case on GitHub&rsquo;s server. It is standard practice (and also the default in some cases) to give the name <code>origin</code> to the remote that points to your main offsite repo (for example, your GitHub repo).
+    </p>
+    <p>
+      Git supports multiple remotes. This is commonly used when forking a repo.
+    </p>
   </div>
+</div>
 
-  <pre class="terminal bootcamp">
-  <span class="codeline">$ cd Spoon-Knife<span>Changes the active directory in the prompt to the newly cloned "Spoon-Knife" directory</span></span>
-  <span class="codeline">$ git remote add upstream git://github.com/octocat/Spoon-Knife.git<span>Assigns the original repo to a remote called "upstream"</span></span>
-  <span class="codeline">$ git fetch upstream<span>Pulls in any changes not present in your local repository, but doesn't modify your working files</span></span>
-  </pre>
+<pre class="terminal bootcamp">
+<span class="codeline">$ cd Spoon-Knife<span>Changes the active directory in the prompt to the newly cloned "Spoon-Knife" directory</span></span>
+<span class="codeline">$ git remote add upstream git://github.com/octocat/Spoon-Knife.git<span>Assigns the original repo to a remote called "upstream"</span></span>
+<span class="codeline">$ git fetch upstream<span>Pulls in any changes not present in your local repository, but doesn't modify your working files</span></span>
+</pre>
+</li>
+</ol>
 
 ##<span class="step">Then:</span> More Things You Can Do
 

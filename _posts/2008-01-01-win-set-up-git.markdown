@@ -14,22 +14,25 @@ At the heart of GitHub is an open source version control system (VCS) called Git
 
 _&#42;If you don&rsquo;t already know what Git is, <a href="http://progit.org/book/ch1-3.html" target="_blank">take a crash course.</a>_
 
-1. <span class="step-title">Download and install the latest version of <a href="http://code.google.com/p/msysgit/downloads/list" target="_blank">Git for Windows</a>.</span>
+<ol>
+  <li>
+    <p><span class="step-title">Download and install the latest version of <a href="http://code.google.com/p/msysgit/downloads/list" target="_blank">Git for Windows</a>.</span></p>
 
-  Use the default options for each step.
+    <p>Use the default options for each step.</p>
 
-  <img src="/images/bootcamp/bootcamp_1_win_install_1.jpg" width="558" height="442" alt="Welcome page" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_2.jpg" width="558" height="442" alt="Information" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_3.jpg" width="558" height="442" alt="Select destination location" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_4.jpg" width="558" height="442" alt="Select start menu folder" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_5.jpg" width="558" height="442" alt="Select components" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_6.jpg" width="558" height="442" alt="Adjusting your PATH environment" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_7.jpg" width="558" height="442" alt="Configuring the line ending conversions" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_8.jpg" width="558" height="442" alt="Installing" />
-  <img src="/images/bootcamp/bootcamp_1_win_install_9.jpg" width="558" height="442" alt="Installation complete" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_1.jpg" width="558" height="442" alt="Welcome page" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_2.jpg" width="558" height="442" alt="Information" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_3.jpg" width="558" height="442" alt="Select destination location" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_4.jpg" width="558" height="442" alt="Select start menu folder" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_5.jpg" width="558" height="442" alt="Select components" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_6.jpg" width="558" height="442" alt="Adjusting your PATH environment" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_7.jpg" width="558" height="442" alt="Configuring the line ending conversions" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_8.jpg" width="558" height="442" alt="Installing" />
+    <img src="/images/bootcamp/bootcamp_1_win_install_9.jpg" width="558" height="442" alt="Installation complete" />
 
-
-  __Do not use PuTTY if you are given the option. GitHub only provides support for openssh.__
+    <p><strong>Do not use PuTTY if you are given the option. GitHub only provides support for openssh.</strong></p>
+  </li>
+</ol>
 
 ##<span class="step">Next:</span> Set Up SSH Keys
 

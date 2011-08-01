@@ -11,55 +11,62 @@ categories: beginner
 
 One of the great features on GitHub is the ability to see what other people are working on and who they are connecting with. When you follow someone, you will get notifications on your dashboard about their GitHub activity.
 
-1. <span class="step-title">Pick a friend.</span>
+<ol>
+  <li>
+    <p><span class="step-title">Pick a friend.</span></p>
 
-  Why not follow one of these cool people?
-  <div class="founders">
-  <a href="https://github.com/mojombo" class="founder" target="_blank">
-  <img src="https://secure.gravatar.com/avatar/25c7c18223fb42a4c6ae1c8db6f50f9b" width="50" height="50"/>
-  <h4>Tom Preston-Werner</h4>
-  <p>mojombo</p>
-  </a>
-  <a href="https://github.com/defunkt" class="founder" target="_blank">
-  <img src="https://secure.gravatar.com/avatar/b8dbb1987e8e5318584865f880036796" width="50" height="50"/>
-  <h4>Chris Wanstrath</h4>
-  <p>defunkt</p>
-  </a>
-  <a href="https://github.com/pjhyett" class="founder" target="_blank">
-  <img src="https://secure.gravatar.com/avatar/290cf664d9e6f823fc3af57556493db7" width="50" height="50"/>
-  <h4>PJ Hyett</h4>
-  <p>pjhyett</p>
-  </a>
-  <a href="https://github.com/schacon" class="founder" target="_blank">
-  <img src="https://secure.gravatar.com/avatar/9375a9529679f1b42b567a640d775e7d" width="50" height="50"/>
-  <h4>Scott Chacon</h4>
-  <p>schacon</p>
-  </a>
-  </div>
-  
-  Who are these fine fellows? We're the founders of GitHub, of course!
+    <p>Why not follow one of these cool people?</p>
+    <div class="founders">
+    <a href="https://github.com/mojombo" class="founder" target="_blank">
+    <img src="https://secure.gravatar.com/avatar/25c7c18223fb42a4c6ae1c8db6f50f9b" width="50" height="50"/>
+    <h4>Tom Preston-Werner</h4>
+    <p>mojombo</p>
+    </a>
+    <a href="https://github.com/defunkt" class="founder" target="_blank">
+    <img src="https://secure.gravatar.com/avatar/b8dbb1987e8e5318584865f880036796" width="50" height="50"/>
+    <h4>Chris Wanstrath</h4>
+    <p>defunkt</p>
+    </a>
+    <a href="https://github.com/pjhyett" class="founder" target="_blank">
+    <img src="https://secure.gravatar.com/avatar/290cf664d9e6f823fc3af57556493db7" width="50" height="50"/>
+    <h4>PJ Hyett</h4>
+    <p>pjhyett</p>
+    </a>
+    <a href="https://github.com/schacon" class="founder" target="_blank">
+    <img src="https://secure.gravatar.com/avatar/9375a9529679f1b42b567a640d775e7d" width="50" height="50"/>
+    <h4>Scott Chacon</h4>
+    <p>schacon</p>
+    </a>
+    </div>
 
-2. <span class="step-title">Follow a friend</span>
+    <p>Who are these fine fellows? We're the founders of GitHub, of course!</p>
+  </li>
+  <li>
+    <span class="step-title">Follow a friend</span>
 
-  Once you are on one of their pages, click the &ldquo;follow&rdquo; button.
-  
-  <img src="/images/bootcamp/bootcamp_4_follow.jpg" width="558" height="151" alt="Click &ldquo;Follow"  />
-  
-  Congratulations! You are now following a friend.
+    <p>Once you are on one of their pages, click the &ldquo;follow&rdquo; button.</p>
 
+    <img src="/images/bootcamp/bootcamp_4_follow.jpg" width="558" height="151" alt="Click &ldquo;Follow"  />
+
+    <p>Congratulations! You are now following a friend.</p>
+  </li>
+</ol>
 ##<span class="step">Next:</span> Watch A Project
 
 At some point you may want to stay up-to-date with a specific project. We&rsquo;ve made this easy to do.
 
-1. <span class="step-title">Watch a project</span>
+<ol>
+  <li>
+    <p><span class="step-title">Watch a project</span></p>
 
-  Our friend the Octocat has a project called <a href="https://github.com/octocat/Hello-World" target="_blank">Hello World</a> that we&rsquo;d like to watch.
-  
-  Once you are in the project page, you will notice there is a &ldquo;watch&rdquo; button at the top of the page. Click on it.
-  
-  <img src="/images/bootcamp/bootcamp_4_watch.jpg" width="558" height="151" alt="Click &ldquo;Watch" />
-  
-  Congratulations! You are now watching the the Hello World project. If the Octocat updates it, you will see what happened in your dashboard.
+    <p>Our friend the Octocat has a project called <a href="https://github.com/octocat/Hello-World" target="_blank">Hello World</a> that we&rsquo;d like to watch.</p>
+
+    <p>Once you are in the project page, you will notice there is a &ldquo;watch&rdquo; button at the top of the page. Click on it.</p>
+
+    <img src="/images/bootcamp/bootcamp_4_watch.jpg" width="558" height="151" alt="Click &ldquo;Watch" />
+    <p>Congratulations! You are now watching the the Hello World project. If the Octocat updates it, you will see what happened in your dashboard.</p>
+  </li>
+</ol>
 
 ##<span class="step">Then:</span> More Things You Can Do
 
@@ -82,7 +89,7 @@ You&rsquo;ve done some of the most basic social interaction GitHub has to offer,
   <img src="/images/bootcamp/bootcamp_4_org.jpg" width="558" height="200" alt="Organizations" class="bootcamp top-margin"/>
   
   Have you found yourself wishing you could collaborate with multiple developers on one project? You can manage everyone with Organizations! With an organization you can establish teams with special permissions, have a public organization profile, and keep track of activity within the organization.
-  
+
 ##<span class="step">Lastly:</span> Celebrate
 
 Congratulations! You are quite the socialite. What do you want to do next?
