@@ -9,7 +9,7 @@ title: Welcome
   <div class="bootcamp-body">
   <ul>
     <li class="setup">
-      <a href="http://help.github.com/set-up-git-redirect" target="_blank">
+      <a href="http://help.github.com/set-up-git-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Set Up Git</h2>
@@ -17,7 +17,7 @@ title: Welcome
       </a>
     </li>
     <li class="create-a-repo">
-      <a href="http://help.github.com/create-a-repo" target="_blank">
+      <a href="http://help.github.com/create-a-repo">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Create A Repo</h2>
@@ -25,7 +25,7 @@ title: Welcome
       </a>
     </li>
     <li class="fork-a-repo">
-      <a href="http://help.github.com/fork-a-repo" target="_blank">
+      <a href="http://help.github.com/fork-a-repo">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Fork a Repo</h2>
@@ -33,7 +33,7 @@ title: Welcome
       </a>
     </li>
     <li class="be-social">
-      <a href="http://help.github.com/be-social" target="_blank">
+      <a href="http://help.github.com/be-social">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Be social</h2>
