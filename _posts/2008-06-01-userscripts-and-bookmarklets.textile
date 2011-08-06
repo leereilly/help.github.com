@@ -19,6 +19,10 @@ h2. GitHub
 * "User profile gist links":http://gist.github.com/225593 - Adds a link to user profile pages linking to that user's gists
 * "GitHub Markdown Preview":http://userscripts.org/scripts/show/65788 - Adds a preview to comment fields, so that you may see how your comment looks with the markdown formatted before sending it.
 * "Preview Images":https://github.com/yperevoznikov/Preview-Images-In-Github - Adds a preview of images inside issues
+* "GitHub Code Search":https://github.com/skratchdot/github-code-search.user.js - A user script that adds a search box to repository pages which allows you to search the code in that repository.
+* "GitHub Fork Count":https://github.com/skratchdot/github-fork-count.user.js - A user script to display the fork count underneath the "public" repo count on a user's main profile page.
+* "GitHub Repo Counts":https://github.com/skratchdot/github-repo-counts.user.js - A user script to display repo counts when browsing repository pages.
+* "GitHub Repo-Filter Info":https://github.com/skratchdot/github-repo-filter-info.user.js - A user script to display some additional info below the repository filter on a user's main profile page.
 
 h2. Gist
 
