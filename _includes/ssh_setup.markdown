@@ -87,7 +87,7 @@
 			<span class="codeline">$ pbcopy &lt; ~/.ssh/id_rsa.pub<span>Copies the contents of the id_rsa.pub file to your clipboard</span></span>
 			</pre>
 			<h4>Windows</h4>
-			<p>Unfortunately, there isn&rsquo;t an easy way to do this from the command line for Windows users. You'll have to use the instructions above.</p>
+      <p>You can open Git Gui, go to Help > Show Key, and then press Copy To Clipboard to copy your public key to your clipboard</p>
 			<h4>Linux</h4>
 			<pre class="terminal bootcamp">
 			<span class="codeline">$ sudo apt-get install xclip<span>Downloads and installs xclip</span></span>
