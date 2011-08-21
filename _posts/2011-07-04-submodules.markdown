@@ -14,39 +14,39 @@ Say there’s an Awesome Framework, and you want to write an open source plugin 
 First create the plugin.
 
 <pre class="terminal">
-$ gh create my-fantastic-plugin
+$ git init my-fantastic-plugin
 </pre>
 
 Next clone the framework.
 
 <pre class="terminal">
-$ gh clone defunkt/my-awesome-framework
+$ git clone defunkt/my-awesome-framework
 $ cd my-awesome-framework
 </pre>
 
 Now add your plugin as a submodule to the framework.
 
 <pre class="terminal">
-$ gh submodule add git://github.com/defunkt/my-fantastic-plugin.git plugins/my-fantastic-plugin
+$ git submodule add git://github.com/defunkt/my-fantastic-plugin.git plugins/my-fantastic-plugin
 </pre>
 
 Next cd into the plugin and add your private URL as a remote.
 
 <pre class="terminal">
 $ cd plugins/my-fantastic-plugin
-$ gh remote add push git@github.com:defunkt/my-fantastic-plugin.git
+$ git remote add push git@github.com:defunkt/my-fantastic-plugin.git
 </pre>
 
 And that’s it. Make changes from within `my-awesome-framework/plugins/my-fantastic-plugin`
-and, when you’re ready, just `gh push push master`.
+and, when you’re ready, just `git push push master`.
 
 Best of all: people cloning your `my-awesome-framework` fork will have no
 problem pulling down your `my-fantastic-plugin` submodule, as you’ve registered
 the public clone URL for the submodule. The commands
 
 <pre class="terminal">
-$ gh submodule init
-$ gh submodule update
+$ git submodule init
+$ git submodule update
 </pre>
 
 Will pull the submodules into the current repository.
