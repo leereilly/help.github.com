@@ -16,7 +16,7 @@ First create the plugin.
 <pre class="terminal">
 $ git init my-fantastic-plugin
 </pre>
-√
+
 Next clone the framework.
 
 <pre class="terminal">
