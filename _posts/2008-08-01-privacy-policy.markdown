@@ -38,7 +38,7 @@ GitHub may disclose personally identifiable information under special circumstan
 Changes
 -------
 
-GitHub may periodically update this policy. We will notify you about significant changes in the way we treat personal information by sending a notice to the primary email address specified in your GitHub primary account holder account or by placing a prominent notice on our site.
+GitHub may periodically update this policy. We will notify you about significant changes in the way we treat personal information by sending a notice to the primary email address specified in your GitHub primary account holder account or by placing a prominent notice on our site.  Such notice will be given at least 3 days in advance of the date the new policy will be applied.
 
 Questions
 ---------
